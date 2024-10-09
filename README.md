@@ -11,3 +11,64 @@ Para mi proyecto pensé en uno de los juegos más comunes para comenzar desde lo
 2.- El usuario ingresara letras para tratar de adivinar la palabra
 3.- El programa le dira si esa letra esta o no en la palabra 
 4.- Contara con cierto número de intentos para adivinar, si no lo logra perderá y ahi acabara el programa
+
+======================= Sub-competencia 1 =======================================
+Sub-competencia: 
+  Separa el código en funciones pequeñas reusables, haciendo uso correcto de paso por parametros y return (avance 3)
+Error: 
+  La segunda función no estaba bien tabulada y no corría el programa, además, en la segunda estaba mal llamada la primera función
+
+Tabulación:
+  def jugar_ahorcado():
+  palabra = seleccionar_palabra(palabras)
+  letras_adivinadas = []  # Lista para almacenar las letras que el jugador adivina
+  historial_intentos = []  # Lista anidada para registrar los intentos (letra, resultado)
+  intentos = 6  # Número de intentos permitidos
+  aciertos = 0
+
+  print("¡Bienvenido al juego de ahorcado!")
+  print("Tienes", intentos, "intentos para adivinar la palabra.")
+
+Llamada de la función:
+  def jugar_ahorcado():
+  palabra = def (seleccionar_palabra(palabras))
+    
+Cambio realizado: Tabule todas las funciones correctamente, además de corregir las llamadas a la función que estaban erróneas
+
+Tabulación:
+  
+  def jugar_ahorcado():
+    palabra = seleccionar_palabra(palabras)
+    letras_adivinadas = []  # Lista para almacenar las letras que el jugador adivina
+    historial_intentos = []  # Lista anidada para registrar los intentos (letra, resultado)
+    intentos = 6  # Número de intentos permitidos
+    aciertos = 0
+
+    print("¡Bienvenido al juego de ahorcado!")
+    print("Tienes", intentos, "intentos para adivinar la palabra.")
+
+Llamada de la función:
+
+  def jugar_ahorcado():
+    palabra = seleccionar_palabra(palabras)
+    
+Lineas: 12 = Corrección de la llamada de la función
+        12 a 19 = Nueva tabulación
+
+======================== Sub-competencia 2 ======================================
+Sub-competencia: 
+  Aplica estructuras condicionales para resolver un problema (avance 4)
+
+Error: Como todavía no había agregado ciclos while o for hasta ese momento el código no corría, entonces la variable que medía los intentos para adivinar marcaba un error, gracias a que el ciclo la declaraba.
+
+Cambio realizado: Después de terminar ciclos while, agregue el ciclo donde pertenecía al inicio para ahora si que corriera el programa
+  
+   while intentos > 0:
+        mostrar_palabra = ''
+        for letra in palabra:
+            if letra in letras_adivinadas:
+                mostrar_palabra += letra  # Si la letra ha sido adivinada, se muestra
+            else:
+                mostrar_palabra += '_ '  # Si no, se muestra un guion bajo
+
+Lineas: 21 a 23 = ciclos agregados
