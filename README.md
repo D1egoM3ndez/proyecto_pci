@@ -12,6 +12,8 @@ Para mi proyecto pensé en uno de los juegos más comunes para comenzar desde lo
 3.- El programa le dira si esa letra esta o no en la palabra 
 4.- Contara con cierto número de intentos para adivinar, si no lo logra perderá y ahi acabara el programa
 
+Para este proyecto lo cambié en su momento por que me parecía que el otro era un poco más complicado para los conocimientos que tenía
+
 ======================= Sub-competencia 1 =======================================
 Sub-competencia: 
   Separa el código en funciones pequeñas reusables, haciendo uso correcto de paso por parametros y return (avance 3)
