@@ -75,5 +75,6 @@ Cambio realizado: Después de terminar ciclos while, agregue el ciclo donde pert
 
 Lineas: 21 a 23 = ciclos agregados
 
+==============
 Para este programa fue requerido el uso de la biblioteca random(), junto con la funcion de secuencia .choice(), adquiriendo esto de:
 https://docs.python.org/3/library/random.html
