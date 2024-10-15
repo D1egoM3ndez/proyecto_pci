@@ -76,5 +76,6 @@ Cambio realizado: Después de terminar ciclos while, agregue el ciclo donde pert
 Lineas: 92 y 96 = ciclos agregados
 
 ========================== REFERENCIAS =======================================
-Para este programa fue requerido el uso de la biblioteca random(), junto con la funcion de secuencia .choice(), adquiriendo esto de:
-https://docs.python.org/3/library/random.html
+Para este programa fue requerido el uso de la biblioteca random(), junto con la funcion de secuencia .choice(), la función random por si sola, genera números aleatorios o situaciones de aleatoriedad como mezclar secuencias, elegir caracteres al azar,etc. Al combinarse con el .choice() se le asigna un elemento del cuál tomará un valor aleatorio y diferente cada vez que se ejecute el programa.
+Esto fue sacado de:
+w3school(s.f)Python Random Module. https://www.w3schools.com/python/module_random.asp
